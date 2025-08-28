@@ -1,9 +1,9 @@
-﻿#Connect-AzAccount -Tenant "86c18b2a-5e00-4f70-af18-d39bb64a6c49"
+﻿#Connect-AzAccount -Tenant "<tenantID>"
 
 function azure-rg {
    param (
     #[Parameter(Mandatory = $true)]
-    [string] $RG_listpath = "D:\ps_practice\RG_list.txt",
+    [string] $RG_listpath = "RG_list.txt",
 
     [Parameter(Mandatory = $true)]
     [ValidateSet("create", "delete")]
