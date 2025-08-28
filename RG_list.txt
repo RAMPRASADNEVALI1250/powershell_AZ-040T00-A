@@ -1,0 +1,6 @@
+dev1
+QA4
+QA7
+UAT2
+prod
+Test-RG
