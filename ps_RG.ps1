@@ -43,3 +43,7 @@ function azure-rg {
 
 Measure-Command { azure-rg -Action create}
 Measure-Command {azure-rg -Action delete}
+
+#other ideas
+#1. Remove all resources starting with dev- in a resourse group
+#2. 
